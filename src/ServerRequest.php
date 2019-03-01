@@ -51,7 +51,7 @@ class ServerRequest implements ServerRequestInterface
     /**
      * @var array
      */
-    private $queryParams = [];
+    public $queryParams = [];
 
     /**
      * @var array
